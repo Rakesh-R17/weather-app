@@ -9,7 +9,20 @@
     text-align: center;
 }
 header{
-    display:flex;
+    display: flex;
+    justify-content: space-between;   
+}
+@media screen and (max-width:1200px){
+    .container{
+        width:100%;
+        text-align:center;
+    }
+}
+@media screen and (max-width:576px){
+    .container{
+        width:100%;
+        text-align:center;
+    }
 }
 .background{
     width: 100%;
