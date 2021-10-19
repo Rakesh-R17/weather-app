@@ -6,9 +6,10 @@
     margin: 0;
     box-sizing: border-box;
     font-family: poppins,sans-serif;
-    display: flex;
     text-align: center;
-    
+}
+header{
+    display:flex;
 }
 .background{
     width: 100%;
