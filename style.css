@@ -23,6 +23,16 @@ header{
         width:100%;
         text-align:center;
     }
+    .container h1{
+        margin-bottom: 5%;
+    }
+    .background{
+        width: 100%;
+        position: absolute;
+        bottom: -5%;
+        display: flex;
+        justify-content: center;
+    }
 }
 .background{
     width: 100%;
