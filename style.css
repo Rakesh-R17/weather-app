@@ -1,0 +1,82 @@
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">);
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+    text-align: center;
+    
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://mcdn.wallpapersafari.com/medium/65/35/dv3KQT.jpeg);
+    background-size: 100% 100%;
+    animation: slider 9s infinite linear;
+}
+
+@keyframes slider{
+    0%{background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://www.superiorwallpapers.com/water/red-umbrella-on-the-bridge-rainy-day_3840x2160);
+        width: 100%;
+        height: 100vh;
+        background-size: 100% 100%;}
+    35%{background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://www.desktopbackground.org/p/2014/08/27/815842_real-rainbow-high-definition-wallpapers-nature-wallpapers-semrawut_3264x2448_h.jpg);
+        width: 100%;
+        height: 100vh;
+        background-size: 100% 100%;}
+    75%{background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://www.pixelstalk.net/wp-content/uploads/2016/10/Cloud-Wallpapers-HD-Free-Download.jpg);
+        width: 100%;
+        height: 100vh;
+        background-size: 100% 100%;}
+}
+
+.container
+{
+
+    padding:150px;
+}
+
+#heading
+{
+    color: yellow;
+}
+
+input[type="text"]
+{
+    margin-top: 8px;
+    height: 3rem;
+    width: 200px;
+    border-radius: 8px;
+    border: 2px solid #e7e7e9;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+input:focus{
+    background-color:#fff;
+    color: #495857;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0,123,255,25%);
+}
+
+input[type="button"]{
+    background-color: #0f0f0e;
+    height: 3.2rem;
+    width: 100px;
+    color: whitesmoke;
+    font-size: 1.1rem;
+    outline: none;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.result{
+    color: #e7e7e9;
+}
