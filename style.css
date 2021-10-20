@@ -46,8 +46,7 @@
 
 .container
 {
-    margin-inline: auto;
-    width:min(90%,70.5rem) ;
+    display:flex;
     padding:150px;
 }
 
