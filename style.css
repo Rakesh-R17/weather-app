@@ -1,19 +1,6 @@
 @import url(<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">);
-@viewport {
-    width: device-width ;
-    zoom: 1.0 ;
-  }
-@-ms-viewport {
-  width: device-width ;
-}
-@media only screen and (max-width: 640px)  {
-    .container{
-    max-width: 99%;
-    padding: 25px 0 30px;
-}
-}
 *{
     margin: 0;
     box-sizing: border-box;
@@ -42,12 +29,6 @@
         width: 100%;
         height: 100vh;
         background-size: 100% 100%;}
-}
-
-.container
-{
-    display:flex;
-    padding:150px;
 }
 
 #heading
@@ -92,3 +73,38 @@ input[type="button"]{
 .result{
     color: #e7e7e9;
 }
+
+@media (min-width: 576px) { 
+    .container{
+        max-width: 99%;
+        padding: 25px 0 30px;
+    }
+ }
+
+@media (min-width: 768px) { 
+    .container{
+        max-width: 99%;
+        padding: 25px 0 30px;
+    }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    .container{
+        padding:150px;
+    }
+ }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    .container{
+        padding:200px;
+    }
+ }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { 
+    .container{
+        padding:150px;
+    }
+ }
