@@ -15,8 +15,9 @@
 @media only screen and (min-width: 200px) and (max-width: 767px){
     .container{
         max-width: 99%;
-        padding: 200px;
+        padding: 50px;
         align-items: center;
+        justify-content: center;
         background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://www.pixelstalk.net/wp-content/uploads/2016/10/Cloud-Wallpapers-HD-Free-Download.jpg);
         background-repeat: no-repeat;
         width: 100%;
