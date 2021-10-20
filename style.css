@@ -1,6 +1,10 @@
 @import url(<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">);
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
 *{
     margin: 0;
     box-sizing: border-box;
@@ -8,12 +12,13 @@
     text-align: center;
     
 }
-@media only screen and (min-width: 200px) and (max-width: 767px)and (orientation : portrait){
+@media only screen and (min-width: 200px) and (max-width: 767px){
     .container{
         padding: 150px;
         text-align: center;
     }
 .background{
+    display: flex;
     width: 100%;
     height: 100vh;
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://www.pixelstalk.net/wp-content/uploads/2016/10/Cloud-Wallpapers-HD-Free-Download.jpg);
@@ -63,7 +68,7 @@ input[type="button"]{
 }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1400px){
+@media only screen and (min-width: 767px) and (max-width: 1400px){
     .container{
         padding: 150px;
         text-align: center;
@@ -71,8 +76,8 @@ input[type="button"]{
 .background{
     width: 100%;
     height: 100vh;
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://www.pixelstalk.net/wp-content/uploads/2016/10/Cloud-Wallpapers-HD-Free-Download.jpg);
-    background-size: 100% 100%;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(https://www.pixelstalk.net/wp-content/uploads/2016/10/Cloud-Wallpapers-HD-Free-Download.jpg);
+    background-size: 100% 100%;  
 }
 
 #heading
