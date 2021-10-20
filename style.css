@@ -88,7 +88,7 @@ input[type="button"]{
 }
 }
 
-@media only screen and (min-width: 767px) and (max-width: 1400px){
+@media only screen and (min-width: 768px) and (max-width: 1400px){
     .container{
         padding: 150px;
         text-align: center;
