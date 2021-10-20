@@ -1,10 +1,6 @@
 @import url(<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">);
-@viewport {
-    width: device-width ;
-    zoom: 1.0 ;
-  }
 *{
     margin: 0;
     box-sizing: border-box;
@@ -12,7 +8,7 @@
     text-align: center;
     
 }
-@media only screen and (min-width: 200px) and (max-width: 767px){
+@media only screen and (min-width: 200px) and (max-width: 767px)and (orientation : portrait){
     .container{
         padding: 150px;
         text-align: center;
