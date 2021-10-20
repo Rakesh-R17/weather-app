@@ -14,7 +14,6 @@
         text-align: center;
     }
 .background{
-    display: flex;
     width: 100%;
     height: 100vh;
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://www.pixelstalk.net/wp-content/uploads/2016/10/Cloud-Wallpapers-HD-Free-Download.jpg);
@@ -70,7 +69,6 @@ input[type="button"]{
         text-align: center;
     }
 .background{
-    display: flex;
     width: 100%;
     height: 100vh;
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://www.pixelstalk.net/wp-content/uploads/2016/10/Cloud-Wallpapers-HD-Free-Download.jpg);
