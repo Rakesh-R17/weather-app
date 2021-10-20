@@ -73,7 +73,7 @@ input[type="button"]{
 
 @media only screen and (min-width: 767px) and (max-width: 1400px){
     .container{
-        padding: 150px;
+        padding: 10px 0px 10px;
         text-align: center;
         background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://www.pixelstalk.net/wp-content/uploads/2016/10/Cloud-Wallpapers-HD-Free-Download.jpg);
         background-repeat: no-repeat;
