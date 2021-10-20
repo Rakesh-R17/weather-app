@@ -30,7 +30,11 @@
         height: 100vh;
         background-size: 100% 100%;}
 }
-
+@media (min-width: 576px) { 
+    .container{
+        max-width: 99%;
+        padding: 25px 0 30px;
+    }
 #heading
 {
     color: yellow;
@@ -74,37 +78,5 @@ input[type="button"]{
     color: #e7e7e9;
 }
 
-@media (min-width: 576px) { 
-    .container{
-        max-width: 99%;
-        padding: 25px 0 30px;
-    }
- }
 
-@media (min-width: 768px) { 
-    .container{
-        max-width: 99%;
-        padding: 25px 0 30px;
-    }
- }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { 
-    .container{
-        padding:150px;
-    }
- }
-
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { 
-    .container{
-        padding:200px;
-    }
- }
-
-// XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) { 
-    .container{
-        padding:150px;
-    }
  }
