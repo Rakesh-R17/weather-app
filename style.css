@@ -26,7 +26,7 @@ body {
 
 
 #heading {
-    color: #87ceeb;
+    color:#4682b4;
 }
 
 input[type="text"] {
@@ -65,5 +65,5 @@ button:hover{
 }
 
 .result {
-    color: white;
+    color: #4682b4;
 }
